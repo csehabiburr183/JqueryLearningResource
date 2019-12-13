@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> JQuery Learning </title>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="jq.js"></script>
+	<link rel="stylesheet" href="core.css" type="text/css">
+</head>
+<body>
+
+	<input type="text" value="csehabiburr183@gmail.com" id="DataNin">
+
+	<h2 id="hData"> My Love </h2>
+
+
+<br/> <hr/>
+
+	<p id="InfoP">  <b> Some Bold Text </b> Contains In P Tag </p>
+
+
+
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		var x = $('#DataNin').val(); //  Input Theke Value Nebar Jonno Val(); Use Hoy
+		alert(x);
+
+		var h2erData = $('#hData').text();  // Elements Theke text Data Nite Hole text();
+		alert(h2erData);
+
+		var resinfo = $('#InfoP').html();  // Elements Theke HTML Data Nite Hole .html();
+		alert(resinfo);
+
+
+	});
+	
+
+
+
+
+</script>
+
+</body>
+</html>

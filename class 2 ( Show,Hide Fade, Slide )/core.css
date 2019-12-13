@@ -1,0 +1,35 @@
+*{
+    margin:0 auto;
+}
+
+body{
+    font-family: arial;
+}
+
+div#Wrapper {
+    width: 900px;
+    padding: 28px;
+    background: #dddddd9e;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button#Btn1,button#Btn2 {
+    padding: 10px 20px;
+    border: 0px;
+    outline: none;
+    color: #f5f2f2;
+    font-size: 18px;
+    background: #1abbb4;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.Content p , .Content2 p {
+    background: linear-gradient(45deg, #14581c, #9e8344);
+    color: #f9f2f2;
+    font-size: 19px;
+    text-align: justify;
+    line-height: 30px;
+    padding: 20px;
+}

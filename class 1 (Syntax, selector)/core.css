@@ -1,0 +1,22 @@
+.Content {
+    width: 900px;
+    margin: 0 auto;
+    font-family: arial;
+}
+
+.contentPart {
+    padding: 15px;
+    text-align: justify;
+    background: #e8e9ea;
+    margin: 20px;
+}
+
+.contentPart p {
+    line-height: 25px;
+}
+
+h3#Cp {
+    border-bottom: 2px solid #66727d;
+    padding: 5px 0px;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> JQuery Learning </title>
+	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="jq.js"></script>
+	<link rel="stylesheet" href="core.css" type="text/css">
+</head>
+<body>
+
+<p> Input Value From JQ using .val(); </p>
+<input type="text" id="InP"> <hr/>
+
+<p> <mark> All Text From JQ Below : </mark></p>
+<div class="TextFromJQ" style="background: lime">  </div> <hr/>
+
+
+<p> <font color="red"> Full HTML + Data From JQ Below: </font></p>
+<h2 id="HtmlFromJQ"> </h2>
+
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+
+		$('#InP').val("Habibur Rahman");
+
+		$('.TextFromJQ').text("I Like To Learning Web Development");
+
+$('#HtmlFromJQ').html(" My <span style='font-size:50px; color:blue'> Name </span> IS Habibur ");
+
+	});
+
+</script>
+
+</body>
+</html>
